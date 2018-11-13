@@ -1,8 +1,8 @@
 Node: Class
 dcid: Class
 label: Class
-typeOf: Class
-subClassOf: Intangible
+typeOf: #%Class
+subClassOf: #%Intangible
 isPartOf: http://meta.schema.org
 sameAs: http://www.w3.org/2000/01/rdf-schema#Class
 url: http://schema.org/Class
@@ -12,8 +12,8 @@ sourceId: SourceDatacommonsOrg
 Node: Property
 dcid: Property
 label: Property
-typeOf: Class
-subClassOf: Intangible
+typeOf: #%Class
+subClassOf: #%Intangible
 isPartOf: http://meta.schema.org
 sameAs: http://www.w3.org/1999/02/22-rdf-syntax-ns#Property
 url: http://schema.org/Property
@@ -23,9 +23,9 @@ sourceId: SourceDatacommonsOrg
 Node: domainIncludes
 dcid: domainIncludes
 label: domainIncludes
-typeOf: Property
-domainIncludes: Property
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%Property
+rangeIncludes: #%Class
 isPartOf: http://meta.schema.org
 url: http://schema.org/domainIncludes
 provenance: http://schema.org/domainIncludes
@@ -34,9 +34,9 @@ sourceId: SourceDatacommonsOrg
 Node: inverseOf
 dcid: inverseOf
 label: inverseOf
-typeOf: Property
-domainIncludes: Property
-rangeIncludes: Property
+typeOf: #%Property
+domainIncludes: #%Property
+rangeIncludes: #%Property
 isPartOf: http://meta.schema.org
 url: http://schema.org/inverseOf
 provenance: http://schema.org/inverseOf
@@ -45,9 +45,9 @@ sourceId: SourceDatacommonsOrg
 Node: rangeIncludes
 dcid: rangeIncludes
 label: rangeIncludes
-typeOf: Property
-domainIncludes: Property
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%Property
+rangeIncludes: #%Class
 isPartOf: http://meta.schema.org
 url: http://schema.org/rangeIncludes
 provenance: http://schema.org/rangeIncludes
@@ -56,9 +56,9 @@ sourceId: SourceDatacommonsOrg
 Node: supersededBy
 dcid: supersededBy
 label: supersededBy
-typeOf: Property
-domainIncludes: Class, Enumeration, Property
-rangeIncludes: Class, Enumeration, Property
+typeOf: #%Property
+domainIncludes: #%Class, #%Enumeration, #%Property
+rangeIncludes: #%Class, #%Enumeration, #%Property
 isPartOf: http://meta.schema.org
 url: http://schema.org/supersededBy
 provenance: http://schema.org/supersededBy
@@ -67,9 +67,9 @@ sourceId: SourceDatacommonsOrg
 Node: label
 dcid: label
 label: label
-typeOf: Property
-domainIncludes: Thing
-rangeIncludes: Text
+typeOf: #%Property
+domainIncludes: #%Thing
+rangeIncludes: #%Text
 sameAs: https://www.w3.org/2000/01/rdf-schema#label
 url: https://www.w3.org/2000/01/rdf-schema#label
 provenance: https://www.w3.org/2000/01/rdf-schema#label
@@ -78,9 +78,9 @@ sourceId: SourceDatacommonsOrg
 Node: typeOf
 dcid: typeOf
 label: typeOf
-typeOf: Property
-domainIncludes: Thing
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%Thing
+rangeIncludes: #%Class
 sameAs: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
 url: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
 provenance: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
@@ -89,9 +89,9 @@ sourceId: SourceDatacommonsOrg
 Node: equivalentClass
 dcid: equivalentClass
 label: equivalentClass
-typeOf: Property
-domainIncludes: Class
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%Class
+rangeIncludes: #%Class
 sameAs: http://www.w3.org/2002/07/owl#equivalentClass
 url: http://www.w3.org/2002/07/owl#equivalentClass
 provenance: http://www.w3.org/2002/07/owl#equivalentClass
@@ -100,9 +100,9 @@ sourceId: SourceDatacommonsOrg
 Node: subClassOf
 dcid: subClassOf
 label: subClassOf
-typeOf: Property
-domainIncludes: Class
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%Class
+rangeIncludes: #%Class
 sameAs: http://www.w3.org/2000/01/rdf-schema#subClassOf
 url: http://www.w3.org/2000/01/rdf-schema#subClassOf
 provenance: http://www.w3.org/2000/01/rdf-schema#subClassOf
@@ -111,9 +111,9 @@ sourceId: SourceDatacommonsOrg
 Node: equivalentProperty
 dcid: equivalentProperty
 label: equivalentProperty
-typeOf: Property
-domainIncludes: Property
-rangeIncludes: Property
+typeOf: #%Property
+domainIncludes: #%Property
+rangeIncludes: #%Property
 sameAs: http://www.w3.org/2002/07/owl#equivalentProperty
 url: http://www.w3.org/2002/07/owl#equivalentProperty
 provenance: http://www.w3.org/2002/07/owl#equivalentProperty
@@ -122,9 +122,9 @@ sourceId: SourceDatacommonsOrg
 Node: subPropertyOf
 dcid: subPropertyOf
 label: subPropertyOf
-typeOf: Property
-domainIncludes: Property
-rangeIncludes: Property
+typeOf: #%Property
+domainIncludes: #%Property
+rangeIncludes: #%Property
 sameAs: http://www.w3.org/2000/01/rdf-schema#subPropertyOf
 url: http://www.w3.org/2000/01/rdf-schema#subPropertyOf
 provenance: http://www.w3.org/2000/01/rdf-schema#subPropertyOf
@@ -133,9 +133,9 @@ sourceId: SourceDatacommonsOrg
 Node: source
 dcid: source
 label: source
-typeOf: Property
-domainIncludes: Class
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%Class
+rangeIncludes: #%Class
 sameAs: http://purl.org/dc/terms/source
 url: http://purl.org/dc/terms/source
 provenance: http://purl.org/dc/terms/source
@@ -144,9 +144,9 @@ sourceId: SourceDatacommonsOrg
 Node: closeMatch
 dcid: closeMatch
 label: closeMatch
-typeOf: Property
-domainIncludes: Class
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%Class
+rangeIncludes: #%Class
 sameAs: http://www.w3.org/2004/02/skos/core#closeMatch
 url: http://www.w3.org/2004/02/skos/core#closeMatch
 provenance: http://www.w3.org/2004/02/skos/core#closeMatch
@@ -155,9 +155,9 @@ sourceId: SourceDatacommonsOrg
 Node: sameAs
 dcid: sameAs
 label: sameAs
-typeOf: Property
-domainIncludes: Thing
-rangeIncludes: URL
+typeOf: #%Property
+domainIncludes: #%Thing
+rangeIncludes: #%URL
 url: http://schema.org/sameAs
 provenance: http://schema.org/sameAs
 sourceId: SourceDatacommonsOrg
@@ -165,9 +165,9 @@ sourceId: SourceDatacommonsOrg
 Node: comment
 dcid: comment
 label: comment
-typeOf: Property
-domainIncludes: Thing
-rangeIncludes: Text
+typeOf: #%Property
+domainIncludes: #%Thing
+rangeIncludes: #%Text
 sameAs: https://www.w3.org/2000/01/rdf-schema#comment
 url: https://www.w3.org/2000/01/rdf-schema#comment
 provenance: https://www.w3.org/2000/01/rdf-schema#comment
@@ -176,9 +176,9 @@ sourceId: SourceDatacommonsOrg
 Node: dcid
 dcid: dcid
 label: dcid
-typeOf: Property
-domainIncludes: Thing
-rangeIncludes: Text
+typeOf: #%Property
+domainIncludes: #%Thing
+rangeIncludes: #%Text
 comment: "The unique identifier for the entity in dataCommons."
 url: https://schema.datacommons.org/dcid
 sourceId: SourceDatacommonsOrg
@@ -186,9 +186,9 @@ sourceId: SourceDatacommonsOrg
 Node: provenance
 dcid: provenance
 label: provenance
-typeOf: Property
-domainIncludes: Thing
-rangeIncludes: Text
+typeOf: #%Property
+domainIncludes: #%Thing
+rangeIncludes: #%Text
 comment: "The source for the data. Provenance is labeled per triple."
 url: https://schema.datacommons.org/provenance
 sourceId: SourceDatacommonsOrg
@@ -196,8 +196,8 @@ sourceId: SourceDatacommonsOrg
 Node: County
 dcid: County
 label: County
-typeOf: Class
-subClassOf: AdministrativeArea
+typeOf: #%Class
+subClassOf: #%AdministrativeArea
 provenance: https://schema.datacommons.org/County
 url: https://schema.datacommons.org/County
 sourceId: SourceDatacommonsOrg
@@ -205,8 +205,8 @@ sourceId: SourceDatacommonsOrg
 Node: CriminalActivities
 dcid: CriminalActivities
 label: CriminalActivities
-typeOf: Class
-subClassOf: http://schema.datacommons.org/Intangible
+typeOf: #%Class
+subClassOf: #%http://schema.datacommons.org/Intangible
 provenance: https://schema.datacommons.org/CriminalActivities
 url: https://schema.datacommons.org/CriminalActivities
 sourceId: SourceDatacommonsOrg
@@ -214,8 +214,8 @@ sourceId: SourceDatacommonsOrg
 Node: DepthValue
 dcid: DepthValue
 label: DepthValue
-typeOf: Class
-subClassOf: Distance
+typeOf: #%Class
+subClassOf: #%Distance
 provenance: https://schema.datacommons.org/DepthValue
 url: https://schema.datacommons.org/DepthValue
 sourceId: SourceDatacommonsOrg
@@ -223,8 +223,8 @@ sourceId: SourceDatacommonsOrg
 Node: DistanceValue
 dcid: DistanceValue
 label: DistanceValue
-typeOf: Class
-subClassOf: Measurement
+typeOf: #%Class
+subClassOf: #%Measurement
 provenance: https://schema.datacommons.org/DistanceValue
 url: https://schema.datacommons.org/DistanceValue
 sourceId: SourceDatacommonsOrg
@@ -232,8 +232,8 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_CrimeTypeEnum
 dcid: FBI_CrimeTypeEnum
 label: FBI_CrimeTypeEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/FBI_CrimeTypeEnum
 url: https://schema.datacommons.org/FBI_CrimeTypeEnum
 sourceId: SourceDatacommonsOrg
@@ -241,7 +241,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_Property
 dcid: FBI_Property
 label: FBI_Property
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_Property
 url: https://schema.datacommons.org/FBI_Property
 sourceId: SourceDatacommonsOrg
@@ -249,7 +249,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_PropertyArson
 dcid: FBI_PropertyArson
 label: FBI_PropertyArson
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_PropertyArson
 url: https://schema.datacommons.org/FBI_PropertyArson
 sourceId: SourceDatacommonsOrg
@@ -257,7 +257,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_PropertyBurglary
 dcid: FBI_PropertyBurglary
 label: FBI_PropertyBurglary
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_PropertyBurglary
 url: https://schema.datacommons.org/FBI_PropertyBurglary
 sourceId: SourceDatacommonsOrg
@@ -265,7 +265,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_PropertyLarcenyTheft
 dcid: FBI_PropertyLarcenyTheft
 label: FBI_PropertyLarcenyTheft
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_PropertyLarcenyTheft
 url: https://schema.datacommons.org/FBI_PropertyLarcenyTheft
 sourceId: SourceDatacommonsOrg
@@ -273,7 +273,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_PropertyMotorVehicleTheft
 dcid: FBI_PropertyMotorVehicleTheft
 label: FBI_PropertyMotorVehicleTheft
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_PropertyMotorVehicleTheft
 url: https://schema.datacommons.org/FBI_PropertyMotorVehicleTheft
 sourceId: SourceDatacommonsOrg
@@ -281,7 +281,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_ViolentAggravatedAssault
 dcid: FBI_ViolentAggravatedAssault
 label: FBI_ViolentAggravatedAssault
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_ViolentAggravatedAssault
 url: https://schema.datacommons.org/FBI_ViolentAggravatedAssault
 sourceId: SourceDatacommonsOrg
@@ -289,7 +289,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_ViolentMurderAndNonNegligentManslaughter
 dcid: FBI_ViolentMurderAndNonNegligentManslaughter
 label: FBI_ViolentMurderAndNonNegligentManslaughter
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_ViolentMurderAndNonNegligentManslaughter
 url: https://schema.datacommons.org/FBI_ViolentMurderAndNonNegligentManslaughter
 sourceId: SourceDatacommonsOrg
@@ -297,7 +297,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_ViolentRape
 dcid: FBI_ViolentRape
 label: FBI_ViolentRape
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_ViolentRape
 url: https://schema.datacommons.org/FBI_ViolentRape
 sourceId: SourceDatacommonsOrg
@@ -305,7 +305,7 @@ sourceId: SourceDatacommonsOrg
 Node: FBI_ViolentRobbery
 dcid: FBI_ViolentRobbery
 label: FBI_ViolentRobbery
-typeOf: FBI_CrimeTypeEnum
+typeOf: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/FBI_ViolentRobbery
 url: https://schema.datacommons.org/FBI_ViolentRobbery
 sourceId: SourceDatacommonsOrg
@@ -313,7 +313,7 @@ sourceId: SourceDatacommonsOrg
 Node: Fog
 dcid: Fog
 label: Fog
-typeOf: NOAA_WeatherConditionEnum
+typeOf: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/Fog
 url: https://schema.datacommons.org/Fog
 sourceId: SourceDatacommonsOrg
@@ -321,7 +321,7 @@ sourceId: SourceDatacommonsOrg
 Node: Hail
 dcid: Hail
 label: Hail
-typeOf: NOAA_WeatherConditionEnum
+typeOf: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/Hail
 url: https://schema.datacommons.org/Hail
 sourceId: SourceDatacommonsOrg
@@ -329,7 +329,7 @@ sourceId: SourceDatacommonsOrg
 Node: InLaborForce
 dcid: InLaborForce
 label: InLaborForce
-typeOf: USC_EmploymentEnum
+typeOf: #%USC_EmploymentEnum
 provenance: https://schema.datacommons.org/InLaborForce
 url: https://schema.datacommons.org/InLaborForce
 sourceId: SourceDatacommonsOrg
@@ -337,8 +337,8 @@ sourceId: SourceDatacommonsOrg
 Node: Measurement
 dcid: Measurement
 label: Measurement
-typeOf: Class
-subClassOf: QuantitativeValue
+typeOf: #%Class
+subClassOf: #%QuantitativeValue
 provenance: https://schema.datacommons.org/Measurement
 url: https://schema.datacommons.org/Measurement
 sourceId: SourceDatacommonsOrg
@@ -346,8 +346,8 @@ sourceId: SourceDatacommonsOrg
 Node: NOAA_WeatherConditionEnum
 dcid: NOAA_WeatherConditionEnum
 label: NOAA_WeatherConditionEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/NOAA_WeatherConditionEnum
 url: https://schema.datacommons.org/NOAA_WeatherConditionEnum
 sourceId: SourceDatacommonsOrg
@@ -355,7 +355,7 @@ sourceId: SourceDatacommonsOrg
 Node: NotInLaborForce
 dcid: NotInLaborForce
 label: NotInLaborForce
-typeOf: USC_EmploymentEnum
+typeOf: #%USC_EmploymentEnum
 provenance: https://schema.datacommons.org/NotInLaborForce
 url: https://schema.datacommons.org/NotInLaborForce
 sourceId: SourceDatacommonsOrg
@@ -363,8 +363,8 @@ sourceId: SourceDatacommonsOrg
 Node: Observation
 dcid: Observation
 label: Observation
-typeOf: Class
-subClassOf: Intangible
+typeOf: #%Class
+subClassOf: #%Intangible
 provenance: https://schema.datacommons.org/Observation
 url: https://schema.datacommons.org/Observation
 sourceId: SourceDatacommonsOrg
@@ -372,8 +372,8 @@ sourceId: SourceDatacommonsOrg
 Node: ObservedWeatherMeasurement
 dcid: ObservedWeatherMeasurement
 label: ObservedWeatherMeasurement
-typeOf: Class
-subClassOf: WeatherMeasurement
+typeOf: #%Class
+subClassOf: #%WeatherMeasurement
 provenance: https://schema.datacommons.org/ObservedWeatherMeasurement
 url: https://schema.datacommons.org/ObservedWeatherMeasurement
 sourceId: SourceDatacommonsOrg
@@ -381,8 +381,8 @@ sourceId: SourceDatacommonsOrg
 Node: PercentageValue
 dcid: PercentageValue
 label: PercentageValue
-typeOf: Class
-subClassOf: Quantity
+typeOf: #%Class
+subClassOf: #%Quantity
 provenance: https://schema.datacommons.org/PercentageValue
 url: https://schema.datacommons.org/PercentageValue
 sourceId: SourceDatacommonsOrg
@@ -390,8 +390,8 @@ sourceId: SourceDatacommonsOrg
 Node: PrecipitationMeasurement
 dcid: PrecipitationMeasurement
 label: PrecipitationMeasurement
-typeOf: Class
-subClassOf: Measurement
+typeOf: #%Class
+subClassOf: #%Measurement
 provenance: https://schema.datacommons.org/PrecipitationMeasurement
 url: https://schema.datacommons.org/PrecipitationMeasurement
 sourceId: SourceDatacommonsOrg
@@ -399,8 +399,8 @@ sourceId: SourceDatacommonsOrg
 Node: PredictedWeatherMeasurement
 dcid: PredictedWeatherMeasurement
 label: PredictedWeatherMeasurement
-typeOf: Class
-subClassOf: WeatherMeasurement
+typeOf: #%Class
+subClassOf: #%WeatherMeasurement
 provenance: https://schema.datacommons.org/PredictedWeatherMeasurement
 url: https://schema.datacommons.org/PredictedWeatherMeasurement
 sourceId: SourceDatacommonsOrg
@@ -408,7 +408,7 @@ sourceId: SourceDatacommonsOrg
 Node: Rain
 dcid: Rain
 label: Rain
-typeOf: NOAA_WeatherConditionEnum
+typeOf: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/Rain
 url: https://schema.datacommons.org/Rain
 sourceId: SourceDatacommonsOrg
@@ -416,8 +416,8 @@ sourceId: SourceDatacommonsOrg
 Node: RainMeasurement
 dcid: RainMeasurement
 label: RainMeasurement
-typeOf: Class
-subClassOf: PrecipitationMeasurement
+typeOf: #%Class
+subClassOf: #%PrecipitationMeasurement
 provenance: https://schema.datacommons.org/RainMeasurement
 url: https://schema.datacommons.org/RainMeasurement
 sourceId: SourceDatacommonsOrg
@@ -425,7 +425,7 @@ sourceId: SourceDatacommonsOrg
 Node: Snow
 dcid: Snow
 label: Snow
-typeOf: NOAA_WeatherConditionEnum
+typeOf: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/Snow
 url: https://schema.datacommons.org/Snow
 sourceId: SourceDatacommonsOrg
@@ -433,8 +433,8 @@ sourceId: SourceDatacommonsOrg
 Node: SnowMeasurement
 dcid: SnowMeasurement
 label: SnowMeasurement
-typeOf: Class
-subClassOf: PrecipitationMeasurement
+typeOf: #%Class
+subClassOf: #%PrecipitationMeasurement
 provenance: https://schema.datacommons.org/SnowMeasurement
 url: https://schema.datacommons.org/SnowMeasurement
 sourceId: SourceDatacommonsOrg
@@ -442,8 +442,8 @@ sourceId: SourceDatacommonsOrg
 Node: StatisticalPopulation
 dcid: StatisticalPopulation
 label: StatisticalPopulation
-typeOf: Class
-subClassOf: Intangible
+typeOf: #%Class
+subClassOf: #%Intangible
 provenance: https://schema.datacommons.org/StatisticalPopulation
 url: https://schema.datacommons.org/StatisticalPopulation
 sourceId: SourceDatacommonsOrg
@@ -451,8 +451,8 @@ sourceId: SourceDatacommonsOrg
 Node: TemperatureValue
 dcid: TemperatureValue
 label: TemperatureValue
-typeOf: Class
-subClassOf: Quantity
+typeOf: #%Class
+subClassOf: #%Quantity
 provenance: https://schema.datacommons.org/TemperatureValue
 url: https://schema.datacommons.org/TemperatureValue
 sourceId: SourceDatacommonsOrg
@@ -460,7 +460,7 @@ sourceId: SourceDatacommonsOrg
 Node: Thunder
 dcid: Thunder
 label: Thunder
-typeOf: NOAA_WeatherConditionEnum
+typeOf: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/Thunder
 url: https://schema.datacommons.org/Thunder
 sourceId: SourceDatacommonsOrg
@@ -468,7 +468,7 @@ sourceId: SourceDatacommonsOrg
 Node: Tornado
 dcid: Tornado
 label: Tornado
-typeOf: NOAA_WeatherConditionEnum
+typeOf: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/Tornado
 url: https://schema.datacommons.org/Tornado
 sourceId: SourceDatacommonsOrg
@@ -476,7 +476,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_100000To124999
 dcid: USC_100000To124999
 label: USC_100000To124999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_100000To124999
 url: https://schema.datacommons.org/USC_100000To124999
 sourceId: SourceDatacommonsOrg
@@ -484,7 +484,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_10000To14999
 dcid: USC_10000To14999
 label: USC_10000To14999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_10000To14999
 url: https://schema.datacommons.org/USC_10000To14999
 sourceId: SourceDatacommonsOrg
@@ -492,7 +492,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_10ThGrade
 dcid: USC_10ThGrade
 label: USC_10ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_10ThGrade
 url: https://schema.datacommons.org/USC_10ThGrade
 sourceId: SourceDatacommonsOrg
@@ -500,7 +500,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_11ThGrade
 dcid: USC_11ThGrade
 label: USC_11ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_11ThGrade
 url: https://schema.datacommons.org/USC_11ThGrade
 sourceId: SourceDatacommonsOrg
@@ -508,7 +508,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_125000To149999
 dcid: USC_125000To149999
 label: USC_125000To149999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_125000To149999
 url: https://schema.datacommons.org/USC_125000To149999
 sourceId: SourceDatacommonsOrg
@@ -516,7 +516,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_12ThGradeNoDiploma
 dcid: USC_12ThGradeNoDiploma
 label: USC_12ThGradeNoDiploma
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_12ThGradeNoDiploma
 url: https://schema.datacommons.org/USC_12ThGradeNoDiploma
 sourceId: SourceDatacommonsOrg
@@ -524,7 +524,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_150000To199999
 dcid: USC_150000To199999
 label: USC_150000To199999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_150000To199999
 url: https://schema.datacommons.org/USC_150000To199999
 sourceId: SourceDatacommonsOrg
@@ -532,7 +532,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_15000To19999
 dcid: USC_15000To19999
 label: USC_15000To19999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_15000To19999
 url: https://schema.datacommons.org/USC_15000To19999
 sourceId: SourceDatacommonsOrg
@@ -540,7 +540,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_18To24Years
 dcid: USC_18To24Years
 label: USC_18To24Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_18To24Years
 url: https://schema.datacommons.org/USC_18To24Years
 sourceId: SourceDatacommonsOrg
@@ -548,7 +548,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_1StGrade
 dcid: USC_1StGrade
 label: USC_1StGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_1StGrade
 url: https://schema.datacommons.org/USC_1StGrade
 sourceId: SourceDatacommonsOrg
@@ -556,7 +556,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_200000OrMore
 dcid: USC_200000OrMore
 label: USC_200000OrMore
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_200000OrMore
 url: https://schema.datacommons.org/USC_200000OrMore
 sourceId: SourceDatacommonsOrg
@@ -564,7 +564,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_20000To24999
 dcid: USC_20000To24999
 label: USC_20000To24999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_20000To24999
 url: https://schema.datacommons.org/USC_20000To24999
 sourceId: SourceDatacommonsOrg
@@ -572,7 +572,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_25000To29999
 dcid: USC_25000To29999
 label: USC_25000To29999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_25000To29999
 url: https://schema.datacommons.org/USC_25000To29999
 sourceId: SourceDatacommonsOrg
@@ -580,7 +580,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_25To34Years
 dcid: USC_25To34Years
 label: USC_25To34Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_25To34Years
 url: https://schema.datacommons.org/USC_25To34Years
 sourceId: SourceDatacommonsOrg
@@ -588,7 +588,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_2NdGrade
 dcid: USC_2NdGrade
 label: USC_2NdGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_2NdGrade
 url: https://schema.datacommons.org/USC_2NdGrade
 sourceId: SourceDatacommonsOrg
@@ -596,7 +596,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_30000To34999
 dcid: USC_30000To34999
 label: USC_30000To34999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_30000To34999
 url: https://schema.datacommons.org/USC_30000To34999
 sourceId: SourceDatacommonsOrg
@@ -604,7 +604,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_345To54Years
 dcid: USC_345To54Years
 label: USC_345To54Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_45To54Years
 url: https://schema.datacommons.org/USC_45To54Years
 sourceId: SourceDatacommonsOrg
@@ -612,7 +612,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_35000To39999
 dcid: USC_35000To39999
 label: USC_35000To39999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_35000To39999
 url: https://schema.datacommons.org/USC_35000To39999
 sourceId: SourceDatacommonsOrg
@@ -620,7 +620,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_35To44Years
 dcid: USC_35To44Years
 label: USC_35To44Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_35To44Years
 url: https://schema.datacommons.org/USC_35To44Years
 sourceId: SourceDatacommonsOrg
@@ -628,7 +628,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_3RdGrade
 dcid: USC_3RdGrade
 label: USC_3RdGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_3RdGrade
 url: https://schema.datacommons.org/USC_3RdGrade
 sourceId: SourceDatacommonsOrg
@@ -636,7 +636,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_40000To44999
 dcid: USC_40000To44999
 label: USC_40000To44999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_40000To44999
 url: https://schema.datacommons.org/USC_40000To44999
 sourceId: SourceDatacommonsOrg
@@ -644,7 +644,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_45000To49999
 dcid: USC_45000To49999
 label: USC_45000To49999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_45000To49999
 url: https://schema.datacommons.org/USC_45000To49999
 sourceId: SourceDatacommonsOrg
@@ -652,7 +652,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_4ThGrade
 dcid: USC_4ThGrade
 label: USC_4ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_4ThGrade
 url: https://schema.datacommons.org/USC_4ThGrade
 sourceId: SourceDatacommonsOrg
@@ -660,7 +660,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_50000To59999
 dcid: USC_50000To59999
 label: USC_50000To59999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_50000To59999
 url: https://schema.datacommons.org/USC_50000To59999
 sourceId: SourceDatacommonsOrg
@@ -668,7 +668,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_55To59Years
 dcid: USC_55To59Years
 label: USC_55To59Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_55To59Years
 url: https://schema.datacommons.org/USC_55To59Years
 sourceId: SourceDatacommonsOrg
@@ -676,7 +676,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_5ThGrade
 dcid: USC_5ThGrade
 label: USC_5ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_5ThGrade
 url: https://schema.datacommons.org/USC_5ThGrade
 sourceId: SourceDatacommonsOrg
@@ -684,7 +684,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_5To17Years
 dcid: USC_5To17Years
 label: USC_5To17Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_5To17Years
 url: https://schema.datacommons.org/USC_5To17Years
 sourceId: SourceDatacommonsOrg
@@ -692,7 +692,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_60000To74999
 dcid: USC_60000To74999
 label: USC_60000To74999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_60000To74999
 url: https://schema.datacommons.org/USC_60000To74999
 sourceId: SourceDatacommonsOrg
@@ -700,7 +700,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_60And61Years
 dcid: USC_60And61Years
 label: USC_60And61Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_60And61Years
 url: https://schema.datacommons.org/USC_60And61Years
 sourceId: SourceDatacommonsOrg
@@ -708,7 +708,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_62To64Years
 dcid: USC_62To64Years
 label: USC_62To64Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_62To64Years
 url: https://schema.datacommons.org/USC_62To64Years
 sourceId: SourceDatacommonsOrg
@@ -716,7 +716,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_65To74Years
 dcid: USC_65To74Years
 label: USC_65To74Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_65To74Years
 url: https://schema.datacommons.org/USC_65To74Years
 sourceId: SourceDatacommonsOrg
@@ -724,7 +724,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_6ThGrade
 dcid: USC_6ThGrade
 label: USC_6ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_6ThGrade
 url: https://schema.datacommons.org/USC_6ThGrade
 sourceId: SourceDatacommonsOrg
@@ -732,7 +732,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_75000To99999
 dcid: USC_75000To99999
 label: USC_75000To99999
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_75000To99999
 url: https://schema.datacommons.org/USC_75000To99999
 sourceId: SourceDatacommonsOrg
@@ -740,7 +740,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_75YearsAndOver
 dcid: USC_75YearsAndOver
 label: USC_75YearsAndOver
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_75YearsAndOver
 url: https://schema.datacommons.org/USC_75YearsAndOver
 sourceId: SourceDatacommonsOrg
@@ -748,7 +748,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_7ThGrade
 dcid: USC_7ThGrade
 label: USC_7ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_7ThGrade
 url: https://schema.datacommons.org/USC_7ThGrade
 sourceId: SourceDatacommonsOrg
@@ -756,7 +756,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_8ThGrade
 dcid: USC_8ThGrade
 label: USC_8ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_8ThGrade
 url: https://schema.datacommons.org/USC_8ThGrade
 sourceId: SourceDatacommonsOrg
@@ -764,7 +764,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_9ThGrade
 dcid: USC_9ThGrade
 label: USC_9ThGrade
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_9ThGrade
 url: https://schema.datacommons.org/USC_9ThGrade
 sourceId: SourceDatacommonsOrg
@@ -772,8 +772,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_AgeEnum
 dcid: USC_AgeEnum
 label: USC_AgeEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_AgeEnum
 url: https://schema.datacommons.org/USC_AgeEnum
 sourceId: SourceDatacommonsOrg
@@ -781,7 +781,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_AmericanIndianAndAlaskaNativeAlone
 dcid: USC_AmericanIndianAndAlaskaNativeAlone
 label: USC_AmericanIndianAndAlaskaNativeAlone
-typeOf: USC_RaceCodeEnum
+typeOf: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/USC_AmericanIndianAndAlaskaNativeAlone
 url: https://schema.datacommons.org/USC_AmericanIndianAndAlaskaNativeAlone
 sourceId: SourceDatacommonsOrg
@@ -789,7 +789,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_AsianAlone
 dcid: USC_AsianAlone
 label: USC_AsianAlone
-typeOf: USC_RaceCodeEnum
+typeOf: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/USC_AsianAlone
 url: https://schema.datacommons.org/USC_AsianAlone
 sourceId: SourceDatacommonsOrg
@@ -797,7 +797,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_AssociateDegree
 dcid: USC_AssociateDegree
 label: USC_AssociateDegree
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_AssociateDegree
 url: https://schema.datacommons.org/USC_AssociateDegree
 sourceId: SourceDatacommonsOrg
@@ -805,7 +805,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_BachelorDegree
 dcid: USC_BachelorDegree
 label: USC_BachelorDegree
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_BachelorDegree
 url: https://schema.datacommons.org/USC_BachelorDegree
 sourceId: SourceDatacommonsOrg
@@ -813,7 +813,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_BlackOrAfricanAmericanAlone
 dcid: USC_BlackOrAfricanAmericanAlone
 label: USC_BlackOrAfricanAmericanAlone
-typeOf: USC_RaceCodeEnum
+typeOf: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/USC_BlackOrAfricanAmericanAlone
 url: https://schema.datacommons.org/USC_BlackOrAfricanAmericanAlone
 sourceId: SourceDatacommonsOrg
@@ -821,8 +821,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_CitizenStatusEnum
 dcid: USC_CitizenStatusEnum
 label: USC_CitizenStatusEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_CitizenStatusEnum
 url: https://schema.datacommons.org/USC_CitizenStatusEnum
 sourceId: SourceDatacommonsOrg
@@ -830,8 +830,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_DisabilityEnum
 dcid: USC_DisabilityEnum
 label: USC_DisabilityEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_DisabilityEnum
 url: https://schema.datacommons.org/USC_DisabilityEnum
 sourceId: SourceDatacommonsOrg
@@ -839,7 +839,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Divorced
 dcid: USC_Divorced
 label: USC_Divorced
-typeOf: USC_MaritalStatusEnum
+typeOf: #%USC_MaritalStatusEnum
 provenance: https://schema.datacommons.org/USC_Divorced
 url: https://schema.datacommons.org/USC_Divorced
 sourceId: SourceDatacommonsOrg
@@ -847,7 +847,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_DoctorateDegree
 dcid: USC_DoctorateDegree
 label: USC_DoctorateDegree
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_DoctorateDegree
 url: https://schema.datacommons.org/USC_DoctorateDegree
 sourceId: SourceDatacommonsOrg
@@ -855,8 +855,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EducationEnum
 dcid: USC_EducationEnum
 label: USC_EducationEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_EducationEnum
 url: https://schema.datacommons.org/USC_EducationEnum
 sourceId: SourceDatacommonsOrg
@@ -864,8 +864,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EmploymentEnum
 dcid: USC_EmploymentEnum
 label: USC_EmploymentEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_EmploymentEnum
 url: https://schema.datacommons.org/USC_EmploymentEnum
 sourceId: SourceDatacommonsOrg
@@ -873,7 +873,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool
 dcid: USC_EnrolledInSchool
 label: USC_EnrolledInSchool
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool
 url: https://schema.datacommons.org/USC_EnrolledInSchool
 sourceId: SourceDatacommonsOrg
@@ -881,7 +881,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool_EnrolledInCollegeUndergraduateYears
 dcid: USC_EnrolledInSchool_EnrolledInCollegeUndergraduateYears
 label: USC_EnrolledInSchool_EnrolledInCollegeUndergraduateYears
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInCollegeUndergraduateYears
 url: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInCollegeUndergraduateYears
 sourceId: SourceDatacommonsOrg
@@ -889,7 +889,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool_EnrolledInGrade1ToGrade4
 dcid: USC_EnrolledInSchool_EnrolledInGrade1ToGrade4
 label: USC_EnrolledInSchool_EnrolledInGrade1ToGrade4
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInGrade1ToGrade4
 url: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInGrade1ToGrade4
 sourceId: SourceDatacommonsOrg
@@ -897,7 +897,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool_EnrolledInGrade5ToGrade8
 dcid: USC_EnrolledInSchool_EnrolledInGrade5ToGrade8
 label: USC_EnrolledInSchool_EnrolledInGrade5ToGrade8
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInGrade5ToGrade8
 url: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInGrade5ToGrade8
 sourceId: SourceDatacommonsOrg
@@ -905,7 +905,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool_EnrolledInGrade9ToGrade12
 dcid: USC_EnrolledInSchool_EnrolledInGrade9ToGrade12
 label: USC_EnrolledInSchool_EnrolledInGrade9ToGrade12
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInGrade9ToGrade12
 url: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInGrade9ToGrade12
 sourceId: SourceDatacommonsOrg
@@ -913,7 +913,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool_EnrolledInKindergarten
 dcid: USC_EnrolledInSchool_EnrolledInKindergarten
 label: USC_EnrolledInSchool_EnrolledInKindergarten
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInKindergarten
 url: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInKindergarten
 sourceId: SourceDatacommonsOrg
@@ -921,7 +921,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool_EnrolledInNurserySchoolPreschool
 dcid: USC_EnrolledInSchool_EnrolledInNurserySchoolPreschool
 label: USC_EnrolledInSchool_EnrolledInNurserySchoolPreschool
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInNurserySchoolPreschool
 url: https://schema.datacommons.org/USC_EnrolledInSchool_EnrolledInNurserySchoolPreschool
 sourceId: SourceDatacommonsOrg
@@ -929,7 +929,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_EnrolledInSchool_GraduateOrProfessionalSchool
 dcid: USC_EnrolledInSchool_GraduateOrProfessionalSchool
 label: USC_EnrolledInSchool_GraduateOrProfessionalSchool
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_EnrolledInSchool_GraduateOrProfessionalSchool
 url: https://schema.datacommons.org/USC_EnrolledInSchool_GraduateOrProfessionalSchool
 sourceId: SourceDatacommonsOrg
@@ -937,7 +937,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Female
 dcid: USC_Female
 label: USC_Female
-typeOf: USC_GenderEnum
+typeOf: #%USC_GenderEnum
 provenance: https://schema.datacommons.org/USC_Female
 url: https://schema.datacommons.org/USC_Female
 sourceId: SourceDatacommonsOrg
@@ -945,7 +945,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_GedOrAlternativeCredential
 dcid: USC_GedOrAlternativeCredential
 label: USC_GedOrAlternativeCredential
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_GedOrAlternativeCredential
 url: https://schema.datacommons.org/USC_GedOrAlternativeCredential
 sourceId: SourceDatacommonsOrg
@@ -953,8 +953,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_GenderEnum
 dcid: USC_GenderEnum
 label: USC_GenderEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_GenderEnum
 url: https://schema.datacommons.org/USC_GenderEnum
 sourceId: SourceDatacommonsOrg
@@ -962,8 +962,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_IncomeEnum
 dcid: USC_IncomeEnum
 label: USC_IncomeEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_IncomeEnum
 url: https://schema.datacommons.org/USC_IncomeEnum
 sourceId: SourceDatacommonsOrg
@@ -971,7 +971,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_IncomeInThePast12MonthsAtOrAbovePovertyLevel
 dcid: USC_IncomeInThePast12MonthsAtOrAbovePovertyLevel
 label: USC_IncomeInThePast12MonthsAtOrAbovePovertyLevel
-typeOf: USC_PovertyStatusEnum
+typeOf: #%USC_PovertyStatusEnum
 provenance: https://schema.datacommons.org/USC_IncomeInThePast12MonthsAtOrAbovePovertyLevel
 url: https://schema.datacommons.org/USC_IncomeInThePast12MonthsAtOrAbovePovertyLevel
 sourceId: SourceDatacommonsOrg
@@ -979,7 +979,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_IncomeInThePast12MonthsBelowPovertyLevel
 dcid: USC_IncomeInThePast12MonthsBelowPovertyLevel
 label: USC_IncomeInThePast12MonthsBelowPovertyLevel
-typeOf: USC_PovertyStatusEnum
+typeOf: #%USC_PovertyStatusEnum
 provenance: https://schema.datacommons.org/USC_IncomeInThePast12MonthsBelowPovertyLevel
 url: https://schema.datacommons.org/USC_IncomeInThePast12MonthsBelowPovertyLevel
 sourceId: SourceDatacommonsOrg
@@ -987,8 +987,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_InsuranceEnum
 dcid: USC_InsuranceEnum
 label: USC_InsuranceEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_InsuranceEnum
 url: https://schema.datacommons.org/USC_InsuranceEnum
 sourceId: SourceDatacommonsOrg
@@ -996,7 +996,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Insured
 dcid: USC_Insured
 label: USC_Insured
-typeOf: USC_InsuranceEnum
+typeOf: #%USC_InsuranceEnum
 provenance: https://schema.datacommons.org/USC_Insured
 url: https://schema.datacommons.org/USC_Insured
 sourceId: SourceDatacommonsOrg
@@ -1004,7 +1004,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Kindergarten
 dcid: USC_Kindergarten
 label: USC_Kindergarten
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_Kindergarten
 url: https://schema.datacommons.org/USC_Kindergarten
 sourceId: SourceDatacommonsOrg
@@ -1012,7 +1012,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_LessThan10000
 dcid: USC_LessThan10000
 label: USC_LessThan10000
-typeOf: USC_IncomeEnum
+typeOf: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/USC_LessThan10000
 url: https://schema.datacommons.org/USC_LessThan10000
 sourceId: SourceDatacommonsOrg
@@ -1020,7 +1020,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Male
 dcid: USC_Male
 label: USC_Male
-typeOf: USC_GenderEnum
+typeOf: #%USC_GenderEnum
 provenance: https://schema.datacommons.org/USC_Male
 url: https://schema.datacommons.org/USC_Male
 sourceId: SourceDatacommonsOrg
@@ -1028,7 +1028,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ManagementBusinessScienceAndArtsOccupations
 dcid: USC_ManagementBusinessScienceAndArtsOccupations
 label: USC_ManagementBusinessScienceAndArtsOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations
 url: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations
 sourceId: SourceDatacommonsOrg
@@ -1036,7 +1036,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ManagementBusinessScienceAndArtsOccupations_ComputerEngineeringAndScienceOccupations
 dcid: USC_ManagementBusinessScienceAndArtsOccupations_ComputerEngineeringAndScienceOccupations
 label: USC_ManagementBusinessScienceAndArtsOccupations_ComputerEngineeringAndScienceOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_ComputerEngineeringAndScienceOccupations
 url: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_ComputerEngineeringAndScienceOccupations
 sourceId: SourceDatacommonsOrg
@@ -1044,7 +1044,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ManagementBusinessScienceAndArtsOccupations_EducationLegalCommunityServiceArtsAndMediaOccupations
 dcid: USC_ManagementBusinessScienceAndArtsOccupations_EducationLegalCommunityServiceArtsAndMediaOccupations
 label: USC_ManagementBusinessScienceAndArtsOccupations_EducationLegalCommunityServiceArtsAndMediaOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_EducationLegalCommunityServiceArtsAndMediaOccupations
 url: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_EducationLegalCommunityServiceArtsAndMediaOccupations
 sourceId: SourceDatacommonsOrg
@@ -1052,7 +1052,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ManagementBusinessScienceAndArtsOccupations_HealthcarePractitionersAndTechnicalOccupations
 dcid: USC_ManagementBusinessScienceAndArtsOccupations_HealthcarePractitionersAndTechnicalOccupations
 label: USC_ManagementBusinessScienceAndArtsOccupations_HealthcarePractitionersAndTechnicalOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_HealthcarePractitionersAndTechnicalOccupations
 url: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_HealthcarePractitionersAndTechnicalOccupations
 sourceId: SourceDatacommonsOrg
@@ -1060,7 +1060,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ManagementBusinessScienceAndArtsOccupations_ManagementBusinessAndFinancialOccupations
 dcid: USC_ManagementBusinessScienceAndArtsOccupations_ManagementBusinessAndFinancialOccupations
 label: USC_ManagementBusinessScienceAndArtsOccupations_ManagementBusinessAndFinancialOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_ManagementBusinessAndFinancialOccupations
 url: https://schema.datacommons.org/USC_ManagementBusinessScienceAndArtsOccupations_ManagementBusinessAndFinancialOccupations
 sourceId: SourceDatacommonsOrg
@@ -1068,8 +1068,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_MaritalStatusEnum
 dcid: USC_MaritalStatusEnum
 label: USC_MaritalStatusEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_MaritalStatusEnum
 url: https://schema.datacommons.org/USC_MaritalStatusEnum
 sourceId: SourceDatacommonsOrg
@@ -1077,7 +1077,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_MasterDegree
 dcid: USC_MasterDegree
 label: USC_MasterDegree
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_MasterDegree
 url: https://schema.datacommons.org/USC_MasterDegree
 sourceId: SourceDatacommonsOrg
@@ -1085,7 +1085,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NativeHawaiianAndOtherPacificIslanderAlone
 dcid: USC_NativeHawaiianAndOtherPacificIslanderAlone
 label: USC_NativeHawaiianAndOtherPacificIslanderAlone
-typeOf: USC_RaceCodeEnum
+typeOf: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/USC_NativeHawaiianAndOtherPacificIslanderAlone
 url: https://schema.datacommons.org/USC_NativeHawaiianAndOtherPacificIslanderAlone
 sourceId: SourceDatacommonsOrg
@@ -1093,7 +1093,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NaturalResourcesConstructionAndMaintenanceOccupations
 dcid: USC_NaturalResourcesConstructionAndMaintenanceOccupations
 label: USC_NaturalResourcesConstructionAndMaintenanceOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations
 url: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations
 sourceId: SourceDatacommonsOrg
@@ -1101,7 +1101,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NaturalResourcesConstructionAndMaintenanceOccupations_ConstructionAndExtractionOccupations
 dcid: USC_NaturalResourcesConstructionAndMaintenanceOccupations_ConstructionAndExtractionOccupations
 label: USC_NaturalResourcesConstructionAndMaintenanceOccupations_ConstructionAndExtractionOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations_ConstructionAndExtractionOccupations
 url: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations_ConstructionAndExtractionOccupations
 sourceId: SourceDatacommonsOrg
@@ -1109,7 +1109,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NaturalResourcesConstructionAndMaintenanceOccupations_FarmingFishingAndForestryOccupations
 dcid: USC_NaturalResourcesConstructionAndMaintenanceOccupations_FarmingFishingAndForestryOccupations
 label: USC_NaturalResourcesConstructionAndMaintenanceOccupations_FarmingFishingAndForestryOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations_FarmingFishingAndForestryOccupations
 url: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations_FarmingFishingAndForestryOccupations
 sourceId: SourceDatacommonsOrg
@@ -1117,7 +1117,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NaturalResourcesConstructionAndMaintenanceOccupations_InstallationMaintenanceAndRepairOccupations
 dcid: USC_NaturalResourcesConstructionAndMaintenanceOccupations_InstallationMaintenanceAndRepairOccupations
 label: USC_NaturalResourcesConstructionAndMaintenanceOccupations_InstallationMaintenanceAndRepairOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations_InstallationMaintenanceAndRepairOccupations
 url: https://schema.datacommons.org/USC_NaturalResourcesConstructionAndMaintenanceOccupations_InstallationMaintenanceAndRepairOccupations
 sourceId: SourceDatacommonsOrg
@@ -1125,7 +1125,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NeverMarried
 dcid: USC_NeverMarried
 label: USC_NeverMarried
-typeOf: USC_MaritalStatusEnum
+typeOf: #%USC_MaritalStatusEnum
 provenance: https://schema.datacommons.org/USC_NeverMarried
 url: https://schema.datacommons.org/USC_NeverMarried
 sourceId: SourceDatacommonsOrg
@@ -1133,7 +1133,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NoSchoolingCompleted
 dcid: USC_NoSchoolingCompleted
 label: USC_NoSchoolingCompleted
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_NoSchoolingCompleted
 url: https://schema.datacommons.org/USC_NoSchoolingCompleted
 sourceId: SourceDatacommonsOrg
@@ -1141,7 +1141,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Nonveteran
 dcid: USC_Nonveteran
 label: USC_Nonveteran
-typeOf: USC_VeteranStatusEnum
+typeOf: #%USC_VeteranStatusEnum
 provenance: https://schema.datacommons.org/USC_Nonveteran
 url: https://schema.datacommons.org/USC_Nonveteran
 sourceId: SourceDatacommonsOrg
@@ -1149,7 +1149,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NotAUSCitizen
 dcid: USC_NotAUSCitizen
 label: USC_NotAUSCitizen
-typeOf: USC_CitizenStatusEnum
+typeOf: #%USC_CitizenStatusEnum
 provenance: https://schema.datacommons.org/USC_NotAUSCitizen
 url: https://schema.datacommons.org/USC_NotAUSCitizen
 sourceId: SourceDatacommonsOrg
@@ -1157,7 +1157,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NotEnrolledInSchool
 dcid: USC_NotEnrolledInSchool
 label: USC_NotEnrolledInSchool
-typeOf: USC_SchoolEnrollmentEnum
+typeOf: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/USC_NotEnrolledInSchool
 url: https://schema.datacommons.org/USC_NotEnrolledInSchool
 sourceId: SourceDatacommonsOrg
@@ -1165,7 +1165,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NowMarriedExceptSeparated
 dcid: USC_NowMarriedExceptSeparated
 label: USC_NowMarriedExceptSeparated
-typeOf: USC_MaritalStatusEnum
+typeOf: #%USC_MaritalStatusEnum
 provenance: https://schema.datacommons.org/USC_NowMarriedExceptSeparated
 url: https://schema.datacommons.org/USC_NowMarriedExceptSeparated
 sourceId: SourceDatacommonsOrg
@@ -1173,7 +1173,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_NurserySchool
 dcid: USC_NurserySchool
 label: USC_NurserySchool
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_NurserySchool
 url: https://schema.datacommons.org/USC_NurserySchool
 sourceId: SourceDatacommonsOrg
@@ -1181,8 +1181,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_OccupationEnum
 dcid: USC_OccupationEnum
 label: USC_OccupationEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_OccupationEnum
 url: https://schema.datacommons.org/USC_OccupationEnum
 sourceId: SourceDatacommonsOrg
@@ -1190,8 +1190,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_PartyAffiliationEnum
 dcid: USC_PartyAffiliationEnum
 label: USC_PartyAffiliationEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_PartyAffiliationEnum
 url: https://schema.datacommons.org/USC_PartyAffiliationEnum
 sourceId: SourceDatacommonsOrg
@@ -1199,8 +1199,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_PovertyStatusEnum
 dcid: USC_PovertyStatusEnum
 label: USC_PovertyStatusEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_PovertyStatusEnum
 url: https://schema.datacommons.org/USC_PovertyStatusEnum
 sourceId: SourceDatacommonsOrg
@@ -1208,7 +1208,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ProductionTransportationAndMaterialMovingOccupations
 dcid: USC_ProductionTransportationAndMaterialMovingOccupations
 label: USC_ProductionTransportationAndMaterialMovingOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations
 url: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations
 sourceId: SourceDatacommonsOrg
@@ -1216,7 +1216,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ProductionTransportationAndMaterialMovingOccupations_MaterialMovingOccupations
 dcid: USC_ProductionTransportationAndMaterialMovingOccupations_MaterialMovingOccupations
 label: USC_ProductionTransportationAndMaterialMovingOccupations_MaterialMovingOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations_MaterialMovingOccupations
 url: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations_MaterialMovingOccupations
 sourceId: SourceDatacommonsOrg
@@ -1224,7 +1224,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ProductionTransportationAndMaterialMovingOccupations_ProductionOccupations
 dcid: USC_ProductionTransportationAndMaterialMovingOccupations_ProductionOccupations
 label: USC_ProductionTransportationAndMaterialMovingOccupations_ProductionOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations_ProductionOccupations
 url: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations_ProductionOccupations
 sourceId: SourceDatacommonsOrg
@@ -1232,7 +1232,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ProductionTransportationAndMaterialMovingOccupations_TransportationOccupations
 dcid: USC_ProductionTransportationAndMaterialMovingOccupations_TransportationOccupations
 label: USC_ProductionTransportationAndMaterialMovingOccupations_TransportationOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations_TransportationOccupations
 url: https://schema.datacommons.org/USC_ProductionTransportationAndMaterialMovingOccupations_TransportationOccupations
 sourceId: SourceDatacommonsOrg
@@ -1240,7 +1240,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ProfessionalSchoolDegree
 dcid: USC_ProfessionalSchoolDegree
 label: USC_ProfessionalSchoolDegree
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_ProfessionalSchoolDegree
 url: https://schema.datacommons.org/USC_ProfessionalSchoolDegree
 sourceId: SourceDatacommonsOrg
@@ -1248,8 +1248,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_RaceCodeEnum
 dcid: USC_RaceCodeEnum
 label: USC_RaceCodeEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_RaceCodeEnum
 url: https://schema.datacommons.org/USC_RaceCodeEnum
 sourceId: SourceDatacommonsOrg
@@ -1257,7 +1257,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Registered
 dcid: USC_Registered
 label: USC_Registered
-typeOf: USC_VoterStatusEnum
+typeOf: #%USC_VoterStatusEnum
 provenance: https://schema.datacommons.org/USC_Registered
 url: https://schema.datacommons.org/USC_Registered
 sourceId: SourceDatacommonsOrg
@@ -1265,7 +1265,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_RegularHighSchoolDiploma
 dcid: USC_RegularHighSchoolDiploma
 label: USC_RegularHighSchoolDiploma
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_RegularHighSchoolDiploma
 url: https://schema.datacommons.org/USC_RegularHighSchoolDiploma
 sourceId: SourceDatacommonsOrg
@@ -1273,7 +1273,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_SalesAndOfficeOccupations
 dcid: USC_SalesAndOfficeOccupations
 label: USC_SalesAndOfficeOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_SalesAndOfficeOccupations
 url: https://schema.datacommons.org/USC_SalesAndOfficeOccupations
 sourceId: SourceDatacommonsOrg
@@ -1281,7 +1281,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_SalesAndOfficeOccupations_OfficeAndAdministrativeSupportOccupations
 dcid: USC_SalesAndOfficeOccupations_OfficeAndAdministrativeSupportOccupations
 label: USC_SalesAndOfficeOccupations_OfficeAndAdministrativeSupportOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_SalesAndOfficeOccupations_OfficeAndAdministrativeSupportOccupations
 url: https://schema.datacommons.org/USC_SalesAndOfficeOccupations_OfficeAndAdministrativeSupportOccupations
 sourceId: SourceDatacommonsOrg
@@ -1289,7 +1289,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_SalesAndOfficeOccupations_SalesAndRelatedOccupations
 dcid: USC_SalesAndOfficeOccupations_SalesAndRelatedOccupations
 label: USC_SalesAndOfficeOccupations_SalesAndRelatedOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_SalesAndOfficeOccupations_SalesAndRelatedOccupations
 url: https://schema.datacommons.org/USC_SalesAndOfficeOccupations_SalesAndRelatedOccupations
 sourceId: SourceDatacommonsOrg
@@ -1297,8 +1297,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_SchoolEnrollmentEnum
 dcid: USC_SchoolEnrollmentEnum
 label: USC_SchoolEnrollmentEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_SchoolEnrollmentEnum
 url: https://schema.datacommons.org/USC_SchoolEnrollmentEnum
 sourceId: SourceDatacommonsOrg
@@ -1306,7 +1306,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Separated
 dcid: USC_Separated
 label: USC_Separated
-typeOf: USC_MaritalStatusEnum
+typeOf: #%USC_MaritalStatusEnum
 provenance: https://schema.datacommons.org/USC_Separated
 url: https://schema.datacommons.org/USC_Separated
 sourceId: SourceDatacommonsOrg
@@ -1314,7 +1314,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ServiceOccupations
 dcid: USC_ServiceOccupations
 label: USC_ServiceOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ServiceOccupations
 url: https://schema.datacommons.org/USC_ServiceOccupations
 sourceId: SourceDatacommonsOrg
@@ -1322,7 +1322,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ServiceOccupations_BuildingAndGroundsCleaningAndMaintenanceOccupations
 dcid: USC_ServiceOccupations_BuildingAndGroundsCleaningAndMaintenanceOccupations
 label: USC_ServiceOccupations_BuildingAndGroundsCleaningAndMaintenanceOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ServiceOccupations_BuildingAndGroundsCleaningAndMaintenanceOccupations
 url: https://schema.datacommons.org/USC_ServiceOccupations_BuildingAndGroundsCleaningAndMaintenanceOccupations
 sourceId: SourceDatacommonsOrg
@@ -1330,7 +1330,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ServiceOccupations_FoodPreparationAndServingRelatedOccupations
 dcid: USC_ServiceOccupations_FoodPreparationAndServingRelatedOccupations
 label: USC_ServiceOccupations_FoodPreparationAndServingRelatedOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ServiceOccupations_FoodPreparationAndServingRelatedOccupations
 url: https://schema.datacommons.org/USC_ServiceOccupations_FoodPreparationAndServingRelatedOccupations
 sourceId: SourceDatacommonsOrg
@@ -1338,7 +1338,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ServiceOccupations_HealthcareSupportOccupations
 dcid: USC_ServiceOccupations_HealthcareSupportOccupations
 label: USC_ServiceOccupations_HealthcareSupportOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ServiceOccupations_HealthcareSupportOccupations
 url: https://schema.datacommons.org/USC_ServiceOccupations_HealthcareSupportOccupations
 sourceId: SourceDatacommonsOrg
@@ -1346,7 +1346,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ServiceOccupations_PersonalCareAndServiceOccupations
 dcid: USC_ServiceOccupations_PersonalCareAndServiceOccupations
 label: USC_ServiceOccupations_PersonalCareAndServiceOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ServiceOccupations_PersonalCareAndServiceOccupations
 url: https://schema.datacommons.org/USC_ServiceOccupations_PersonalCareAndServiceOccupations
 sourceId: SourceDatacommonsOrg
@@ -1354,7 +1354,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_ServiceOccupations_ProtectiveServiceOccupations
 dcid: USC_ServiceOccupations_ProtectiveServiceOccupations
 label: USC_ServiceOccupations_ProtectiveServiceOccupations
-typeOf: USC_OccupationEnum
+typeOf: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/USC_ServiceOccupations_ProtectiveServiceOccupations
 url: https://schema.datacommons.org/USC_ServiceOccupations_ProtectiveServiceOccupations
 sourceId: SourceDatacommonsOrg
@@ -1362,7 +1362,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_SomeCollege1OrMoreYearsNoDegree
 dcid: USC_SomeCollege1OrMoreYearsNoDegree
 label: USC_SomeCollege1OrMoreYearsNoDegree
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_SomeCollege1OrMoreYearsNoDegree
 url: https://schema.datacommons.org/USC_SomeCollege1OrMoreYearsNoDegree
 sourceId: SourceDatacommonsOrg
@@ -1370,7 +1370,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_SomeCollegeLessThan1Year
 dcid: USC_SomeCollegeLessThan1Year
 label: USC_SomeCollegeLessThan1Year
-typeOf: USC_EducationEnum
+typeOf: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/USC_SomeCollegeLessThan1Year
 url: https://schema.datacommons.org/USC_SomeCollegeLessThan1Year
 sourceId: SourceDatacommonsOrg
@@ -1378,7 +1378,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_SomeOtherRaceAlone
 dcid: USC_SomeOtherRaceAlone
 label: USC_SomeOtherRaceAlone
-typeOf: USC_RaceCodeEnum
+typeOf: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/USC_SomeOtherRaceAlone
 url: https://schema.datacommons.org/USC_SomeOtherRaceAlone
 sourceId: SourceDatacommonsOrg
@@ -1386,7 +1386,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_TwoOrMoreRaces
 dcid: USC_TwoOrMoreRaces
 label: USC_TwoOrMoreRaces
-typeOf: USC_RaceCodeEnum
+typeOf: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/USC_TwoOrMoreRaces
 url: https://schema.datacommons.org/USC_TwoOrMoreRaces
 sourceId: SourceDatacommonsOrg
@@ -1394,7 +1394,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_USCitizenBornAbroadOfAmericanParent
 dcid: USC_USCitizenBornAbroadOfAmericanParent
 label: USC_USCitizenBornAbroadOfAmericanParent
-typeOf: USC_CitizenStatusEnum
+typeOf: #%USC_CitizenStatusEnum
 provenance: https://schema.datacommons.org/USC_USCitizenBornAbroadOfAmericanParent
 url: https://schema.datacommons.org/USC_USCitizenBornAbroadOfAmericanParent
 sourceId: SourceDatacommonsOrg
@@ -1402,7 +1402,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_USCitizenBornInPuertoRicoOrUSIslandAreas
 dcid: USC_USCitizenBornInPuertoRicoOrUSIslandAreas
 label: USC_USCitizenBornInPuertoRicoOrUSIslandAreas
-typeOf: USC_CitizenStatusEnum
+typeOf: #%USC_CitizenStatusEnum
 provenance: https://schema.datacommons.org/USC_USCitizenBornInPuertoRicoOrUSIslandAreas
 url: https://schema.datacommons.org/USC_USCitizenBornInPuertoRicoOrUSIslandAreas
 sourceId: SourceDatacommonsOrg
@@ -1410,7 +1410,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_USCitizenBornInTheUnitedStates
 dcid: USC_USCitizenBornInTheUnitedStates
 label: USC_USCitizenBornInTheUnitedStates
-typeOf: USC_CitizenStatusEnum
+typeOf: #%USC_CitizenStatusEnum
 provenance: https://schema.datacommons.org/USC_USCitizenBornInTheUnitedStates
 url: https://schema.datacommons.org/USC_USCitizenBornInTheUnitedStates
 sourceId: SourceDatacommonsOrg
@@ -1418,7 +1418,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_USCitizenByNaturalization
 dcid: USC_USCitizenByNaturalization
 label: USC_USCitizenByNaturalization
-typeOf: USC_CitizenStatusEnum
+typeOf: #%USC_CitizenStatusEnum
 provenance: https://schema.datacommons.org/USC_USCitizenByNaturalization
 url: https://schema.datacommons.org/USC_USCitizenByNaturalization
 sourceId: SourceDatacommonsOrg
@@ -1426,7 +1426,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Under5Years
 dcid: USC_Under5Years
 label: USC_Under5Years
-typeOf: USC_AgeEnum
+typeOf: #%USC_AgeEnum
 provenance: https://schema.datacommons.org/USC_Under5Years
 url: https://schema.datacommons.org/USC_Under5Years
 sourceId: SourceDatacommonsOrg
@@ -1434,7 +1434,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Uninsured
 dcid: USC_Uninsured
 label: USC_Uninsured
-typeOf: USC_InsuranceEnum
+typeOf: #%USC_InsuranceEnum
 provenance: https://schema.datacommons.org/USC_Uninsured
 url: https://schema.datacommons.org/USC_Uninsured
 sourceId: SourceDatacommonsOrg
@@ -1442,7 +1442,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Veteran
 dcid: USC_Veteran
 label: USC_Veteran
-typeOf: USC_VeteranStatusEnum
+typeOf: #%USC_VeteranStatusEnum
 provenance: https://schema.datacommons.org/USC_Veteran
 url: https://schema.datacommons.org/USC_Veteran
 sourceId: SourceDatacommonsOrg
@@ -1450,8 +1450,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_VeteranStatusEnum
 dcid: USC_VeteranStatusEnum
 label: USC_VeteranStatusEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_VeteranStatusEnum
 url: https://schema.datacommons.org/USC_VeteranStatusEnum
 sourceId: SourceDatacommonsOrg
@@ -1459,8 +1459,8 @@ sourceId: SourceDatacommonsOrg
 Node: USC_VoterStatusEnum
 dcid: USC_VoterStatusEnum
 label: USC_VoterStatusEnum
-typeOf: Class
-subClassOf: Enumeration
+typeOf: #%Class
+subClassOf: #%Enumeration
 provenance: https://schema.datacommons.org/USC_VoterStatusEnum
 url: https://schema.datacommons.org/USC_VoterStatusEnum
 sourceId: SourceDatacommonsOrg
@@ -1468,7 +1468,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_WhiteAlone
 dcid: USC_WhiteAlone
 label: USC_WhiteAlone
-typeOf: USC_RaceCodeEnum
+typeOf: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/USC_WhiteAlone
 url: https://schema.datacommons.org/USC_WhiteAlone
 sourceId: SourceDatacommonsOrg
@@ -1476,7 +1476,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_Widowed
 dcid: USC_Widowed
 label: USC_Widowed
-typeOf: USC_MaritalStatusEnum
+typeOf: #%USC_MaritalStatusEnum
 provenance: https://schema.datacommons.org/USC_Widowed
 url: https://schema.datacommons.org/USC_Widowed
 sourceId: SourceDatacommonsOrg
@@ -1484,7 +1484,7 @@ sourceId: SourceDatacommonsOrg
 Node: USC_WithADisability
 dcid: USC_WithADisability
 label: USC_WithADisability
-typeOf: USC_DisabilityEnum
+typeOf: #%USC_DisabilityEnum
 provenance: https://schema.datacommons.org/USC_WithADisability
 url: https://schema.datacommons.org/USC_WithADisability
 sourceId: SourceDatacommonsOrg
@@ -1492,7 +1492,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_AmericanIndependentParty
 dcid: US_AmericanIndependentParty
 label: US_AmericanIndependentParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_AmericanIndependentParty
 url: https://schema.datacommons.org/US_AmericanIndependentParty
 sourceId: SourceDatacommonsOrg
@@ -1500,7 +1500,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_ConservativeParty
 dcid: US_ConservativeParty
 label: US_ConservativeParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_ConservativeParty
 url: https://schema.datacommons.org/US_ConservativeParty
 sourceId: SourceDatacommonsOrg
@@ -1508,7 +1508,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_ConstitutionParty
 dcid: US_ConstitutionParty
 label: US_ConstitutionParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_ConstitutionParty
 url: https://schema.datacommons.org/US_ConstitutionParty
 sourceId: SourceDatacommonsOrg
@@ -1516,7 +1516,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_DemocraticParty
 dcid: US_DemocraticParty
 label: US_DemocraticParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_DemocraticParty
 url: https://schema.datacommons.org/US_DemocraticParty
 sourceId: SourceDatacommonsOrg
@@ -1524,7 +1524,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_GreenLibertarianParty
 dcid: US_GreenLibertarianParty
 label: US_GreenLibertarianParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_GreenLibertarianParty
 url: https://schema.datacommons.org/US_GreenLibertarianParty
 sourceId: SourceDatacommonsOrg
@@ -1532,7 +1532,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_GreenParty
 dcid: US_GreenParty
 label: US_GreenParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_GreenParty
 url: https://schema.datacommons.org/US_GreenParty
 sourceId: SourceDatacommonsOrg
@@ -1540,7 +1540,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_IndependenceParty
 dcid: US_IndependenceParty
 label: US_IndependenceParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_IndependenceParty
 url: https://schema.datacommons.org/US_IndependenceParty
 sourceId: SourceDatacommonsOrg
@@ -1548,7 +1548,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_LibertarianParty
 dcid: US_LibertarianParty
 label: US_LibertarianParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_LibertarianParty
 url: https://schema.datacommons.org/US_LibertarianParty
 sourceId: SourceDatacommonsOrg
@@ -1556,7 +1556,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_MinorParty
 dcid: US_MinorParty
 label: US_MinorParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_MinorParty
 url: https://schema.datacommons.org/US_MinorParty
 sourceId: SourceDatacommonsOrg
@@ -1564,7 +1564,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_OtherParty
 dcid: US_OtherParty
 label: US_OtherParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_OtherParty
 url: https://schema.datacommons.org/US_OtherParty
 sourceId: SourceDatacommonsOrg
@@ -1572,7 +1572,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_PeaceandFreedomParty
 dcid: US_PeaceandFreedomParty
 label: US_PeaceandFreedomParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_PeaceandFreedomParty
 url: https://schema.datacommons.org/US_PeaceandFreedomParty
 sourceId: SourceDatacommonsOrg
@@ -1580,7 +1580,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_ReformParty
 dcid: US_ReformParty
 label: US_ReformParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_ReformParty
 url: https://schema.datacommons.org/US_ReformParty
 sourceId: SourceDatacommonsOrg
@@ -1588,7 +1588,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_RepublicanParty
 dcid: US_RepublicanParty
 label: US_RepublicanParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_RepublicanParty
 url: https://schema.datacommons.org/US_RepublicanParty
 sourceId: SourceDatacommonsOrg
@@ -1596,7 +1596,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_Unaffiliated
 dcid: US_Unaffiliated
 label: US_Unaffiliated
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_Unaffiliated
 url: https://schema.datacommons.org/US_Unaffiliated
 sourceId: SourceDatacommonsOrg
@@ -1604,7 +1604,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_WomensEqualityParty
 dcid: US_WomensEqualityParty
 label: US_WomensEqualityParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_WomensEqualityParty
 url: https://schema.datacommons.org/US_WomensEqualityParty
 sourceId: SourceDatacommonsOrg
@@ -1612,7 +1612,7 @@ sourceId: SourceDatacommonsOrg
 Node: US_WorkingFamiliesParty
 dcid: US_WorkingFamiliesParty
 label: US_WorkingFamiliesParty
-typeOf: USC_PartyAffiliationEnum
+typeOf: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/US_WorkingFamiliesParty
 url: https://schema.datacommons.org/US_WorkingFamiliesParty
 sourceId: SourceDatacommonsOrg
@@ -1620,8 +1620,8 @@ sourceId: SourceDatacommonsOrg
 Node: VelocityValue
 dcid: VelocityValue
 label: VelocityValue
-typeOf: Class
-subClassOf: Quantity
+typeOf: #%Class
+subClassOf: #%Quantity
 provenance: https://schema.datacommons.org/VelocityValue
 url: https://schema.datacommons.org/VelocityValue
 sourceId: SourceDatacommonsOrg
@@ -1629,8 +1629,8 @@ sourceId: SourceDatacommonsOrg
 Node: VolumeValue
 dcid: VolumeValue
 label: VolumeValue
-typeOf: Class
-subClassOf: Quantity
+typeOf: #%Class
+subClassOf: #%Quantity
 provenance: https://schema.datacommons.org/VolumeValue
 url: https://schema.datacommons.org/VolumeValue
 sourceId: SourceDatacommonsOrg
@@ -1638,8 +1638,8 @@ sourceId: SourceDatacommonsOrg
 Node: WeatherMeasurement
 dcid: WeatherMeasurement
 label: WeatherMeasurement
-typeOf: Class
-subClassOf: Measurement
+typeOf: #%Class
+subClassOf: #%Measurement
 provenance: https://schema.datacommons.org/WeatherMeasurement
 url: https://schema.datacommons.org/WeatherMeasurement
 sourceId: SourceDatacommonsOrg
@@ -1647,8 +1647,8 @@ sourceId: SourceDatacommonsOrg
 Node: WeatherStation
 dcid: WeatherStation
 label: WeatherStation
-typeOf: Class
-subClassOf: Place
+typeOf: #%Class
+subClassOf: #%Place
 provenance: https://schema.datacommons.org/WeatherStation
 url: https://schema.datacommons.org/WeatherStation
 sourceId: SourceDatacommonsOrg
@@ -1656,8 +1656,8 @@ sourceId: SourceDatacommonsOrg
 Node: WindMeasurement
 dcid: WindMeasurement
 label: WindMeasurement
-typeOf: Class
-subClassOf: WindMeasurement
+typeOf: #%Class
+subClassOf: #%WindMeasurement
 provenance: https://schema.datacommons.org/WindMeasurement
 url: https://schema.datacommons.org/WindMeasurement
 sourceId: SourceDatacommonsOrg
@@ -1665,7 +1665,7 @@ sourceId: SourceDatacommonsOrg
 Node: Windy
 dcid: Windy
 label: Windy
-typeOf: NOAA_WeatherConditionEnum
+typeOf: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/Windy
 url: https://schema.datacommons.org/Windy
 sourceId: SourceDatacommonsOrg
@@ -1673,9 +1673,9 @@ sourceId: SourceDatacommonsOrg
 Node: age
 dcid: age
 label: age
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_AgeEnum, Number, QuantitativeValue
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_AgeEnum, #%Number, #%QuantitativeValue
 provenance: https://schema.datacommons.org/age
 url: https://schema.datacommons.org/age
 sourceId: SourceDatacommonsOrg
@@ -1683,9 +1683,9 @@ sourceId: SourceDatacommonsOrg
 Node: area
 dcid: area
 label: area
-typeOf: Property
-domainIncludes: https://schema.org/AdministrativeArea
-rangeIncludes: https://schema.org/Number, https://schema.org/QuantitativeValue
+typeOf: #%Property
+domainIncludes: #%https://schema.org/AdministrativeArea
+rangeIncludes: #%https://schema.org/Number, #%https://schema.org/QuantitativeValue
 provenance: https://schema.datacommons.org/area
 url: https://schema.datacommons.org/area
 sourceId: SourceDatacommonsOrg
@@ -1693,9 +1693,9 @@ sourceId: SourceDatacommonsOrg
 Node: barometricPressure
 dcid: barometricPressure
 label: barometricPressure
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: PercentageValue
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%PercentageValue
 provenance: https://schema.datacommons.org/barometricPressure
 url: https://schema.datacommons.org/barometricPressure
 sourceId: SourceDatacommonsOrg
@@ -1703,9 +1703,9 @@ sourceId: SourceDatacommonsOrg
 Node: baseDepth
 dcid: baseDepth
 label: baseDepth
-typeOf: Property
-domainIncludes: SnowMeasurement
-rangeIncludes: DepthValue
+typeOf: #%Property
+domainIncludes: #%SnowMeasurement
+rangeIncludes: #%DepthValue
 provenance: https://schema.datacommons.org/baseDepth
 url: https://schema.datacommons.org/baseDepth
 sourceId: SourceDatacommonsOrg
@@ -1713,9 +1713,9 @@ sourceId: SourceDatacommonsOrg
 Node: chanceOfPrecipitation
 dcid: chanceOfPrecipitation
 label: chanceOfPrecipitation
-typeOf: Property
-domainIncludes: PrecipitationMeasurement
-rangeIncludes: PercentageValue
+typeOf: #%Property
+domainIncludes: #%PrecipitationMeasurement
+rangeIncludes: #%PercentageValue
 provenance: https://schema.datacommons.org/chanceOfPrecipitation
 url: https://schema.datacommons.org/chanceOfPrecipitation
 sourceId: SourceDatacommonsOrg
@@ -1723,9 +1723,9 @@ sourceId: SourceDatacommonsOrg
 Node: citizenship
 dcid: citizenship
 label: citizenship
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_CitizenStatusEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_CitizenStatusEnum
 provenance: https://schema.datacommons.org/citizenship
 url: https://schema.datacommons.org/citizenship
 sourceId: SourceDatacommonsOrg
@@ -1733,9 +1733,9 @@ sourceId: SourceDatacommonsOrg
 Node: cloudCoverage
 dcid: cloudCoverage
 label: cloudCoverage
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: PercentageValue
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%PercentageValue
 provenance: https://schema.datacommons.org/cloudCoverage
 url: https://schema.datacommons.org/cloudCoverage
 sourceId: SourceDatacommonsOrg
@@ -1743,9 +1743,9 @@ sourceId: SourceDatacommonsOrg
 Node: countValue
 dcid: countValue
 label: countValue
-typeOf: Property
-domainIncludes: Observation
-rangeIncludes: Integer
+typeOf: #%Property
+domainIncludes: #%Observation
+rangeIncludes: #%Integer
 provenance: https://schema.datacommons.org/countValue
 url: https://schema.datacommons.org/countValue
 sourceId: SourceDatacommonsOrg
@@ -1753,9 +1753,9 @@ sourceId: SourceDatacommonsOrg
 Node: crimeType
 dcid: crimeType
 label: crimeType
-typeOf: Property
-domainIncludes: CriminalActivities
-rangeIncludes: FBI_CrimeTypeEnum
+typeOf: #%Property
+domainIncludes: #%CriminalActivities
+rangeIncludes: #%FBI_CrimeTypeEnum
 provenance: https://schema.datacommons.org/crimeType
 url: https://schema.datacommons.org/crimeType
 sourceId: SourceDatacommonsOrg
@@ -1763,9 +1763,9 @@ sourceId: SourceDatacommonsOrg
 Node: dcid
 dcid: dcid
 label: dcid
-typeOf: Property
-domainIncludes: https://schema.org/Thing
-rangeIncludes: https://schema.org/Text
+typeOf: #%Property
+domainIncludes: #%https://schema.org/Thing
+rangeIncludes: #%https://schema.org/Text
 provenance: https://schema.datacommons.org/dcid
 url: https://schema.datacommons.org/dcid
 sourceId: SourceDatacommonsOrg
@@ -1773,9 +1773,9 @@ sourceId: SourceDatacommonsOrg
 Node: dewPoint
 dcid: dewPoint
 label: dewPoint
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: TemperatureValue
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%TemperatureValue
 provenance: https://schema.datacommons.org/dewPoint
 url: https://schema.datacommons.org/dewPoint
 sourceId: SourceDatacommonsOrg
@@ -1783,9 +1783,9 @@ sourceId: SourceDatacommonsOrg
 Node: disability
 dcid: disability
 label: disability
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_DisabilityEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_DisabilityEnum
 provenance: https://schema.datacommons.org/disability
 url: https://schema.datacommons.org/disability
 sourceId: SourceDatacommonsOrg
@@ -1793,8 +1793,8 @@ sourceId: SourceDatacommonsOrg
 Node: duration
 dcid: duration
 label: duration
-typeOf: Property
-domainIncludes: Observation, WeatherMeasurement
+typeOf: #%Property
+domainIncludes: #%Observation, #%WeatherMeasurement
 provenance: https://schema.datacommons.org/duration
 url: https://schema.datacommons.org/duration
 sourceId: SourceDatacommonsOrg
@@ -1802,9 +1802,9 @@ sourceId: SourceDatacommonsOrg
 Node: education
 dcid: education
 label: education
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_EducationEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_EducationEnum
 provenance: https://schema.datacommons.org/education
 url: https://schema.datacommons.org/education
 sourceId: SourceDatacommonsOrg
@@ -1812,9 +1812,9 @@ sourceId: SourceDatacommonsOrg
 Node: employment
 dcid: employment
 label: employment
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_EmploymentEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_EmploymentEnum
 provenance: https://schema.datacommons.org/employment
 url: https://schema.datacommons.org/employment
 sourceId: SourceDatacommonsOrg
@@ -1822,8 +1822,8 @@ sourceId: SourceDatacommonsOrg
 Node: endDate
 dcid: endDate
 label: endDate
-typeOf: Property
-domainIncludes: Measurement
+typeOf: #%Property
+domainIncludes: #%Measurement
 provenance: https://schema.datacommons.org/endDate
 url: https://schema.datacommons.org/endDate
 sourceId: SourceDatacommonsOrg
@@ -1831,8 +1831,8 @@ sourceId: SourceDatacommonsOrg
 Node: endTime
 dcid: endTime
 label: endTime
-typeOf: Property
-domainIncludes: Observation
+typeOf: #%Property
+domainIncludes: #%Observation
 provenance: https://schema.datacommons.org/endTime
 url: https://schema.datacommons.org/endTime
 sourceId: SourceDatacommonsOrg
@@ -1840,9 +1840,9 @@ sourceId: SourceDatacommonsOrg
 Node: freebaseId
 dcid: freebaseId
 label: freebaseId
-typeOf: Property
-domainIncludes: https://schema.org/Thing
-rangeIncludes: https://schema.org/Text
+typeOf: #%Property
+domainIncludes: #%https://schema.org/Thing
+rangeIncludes: #%https://schema.org/Text
 provenance: https://schema.datacommons.org/freebaseId
 url: https://schema.datacommons.org/freebaseId
 sourceId: SourceDatacommonsOrg
@@ -1850,9 +1850,9 @@ sourceId: SourceDatacommonsOrg
 Node: gender
 dcid: gender
 label: gender
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_GenderEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_GenderEnum
 provenance: https://schema.datacommons.org/gender
 url: https://schema.datacommons.org/gender
 sourceId: SourceDatacommonsOrg
@@ -1860,9 +1860,9 @@ sourceId: SourceDatacommonsOrg
 Node: geonamesId
 dcid: geonamesId
 label: geonamesId
-typeOf: Property
-domainIncludes: https://schema.org/Thing
-rangeIncludes: https://schema.org/Text
+typeOf: #%Property
+domainIncludes: #%https://schema.org/Thing
+rangeIncludes: #%https://schema.org/Text
 provenance: https://schema.datacommons.org/geonamesId
 url: https://schema.datacommons.org/geonamesId
 sourceId: SourceDatacommonsOrg
@@ -1870,9 +1870,9 @@ sourceId: SourceDatacommonsOrg
 Node: humidityPercent
 dcid: humidityPercent
 label: humidityPercent
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: PercentageValue
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%PercentageValue
 provenance: https://schema.datacommons.org/humidityPercent
 url: https://schema.datacommons.org/humidityPercent
 sourceId: SourceDatacommonsOrg
@@ -1880,9 +1880,9 @@ sourceId: SourceDatacommonsOrg
 Node: income
 dcid: income
 label: income
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_IncomeEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_IncomeEnum
 provenance: https://schema.datacommons.org/income
 url: https://schema.datacommons.org/income
 sourceId: SourceDatacommonsOrg
@@ -1890,9 +1890,9 @@ sourceId: SourceDatacommonsOrg
 Node: insurance
 dcid: insurance
 label: insurance
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_InsuranceEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_InsuranceEnum
 provenance: https://schema.datacommons.org/insurance
 url: https://schema.datacommons.org/insurance
 sourceId: SourceDatacommonsOrg
@@ -1900,8 +1900,8 @@ sourceId: SourceDatacommonsOrg
 Node: location
 dcid: location
 label: location
-typeOf: Property
-domainIncludes: StatisticalPopulation, Measurement
+typeOf: #%Property
+domainIncludes: #%StatisticalPopulation, #%Measurement
 provenance: https://schema.datacommons.org/location
 url: https://schema.datacommons.org/location
 sourceId: SourceDatacommonsOrg
@@ -1909,9 +1909,9 @@ sourceId: SourceDatacommonsOrg
 Node: maritalStatus
 dcid: maritalStatus
 label: maritalStatus
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_MaritalStatusEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_MaritalStatusEnum
 provenance: https://schema.datacommons.org/maritalStatus
 url: https://schema.datacommons.org/maritalStatus
 sourceId: SourceDatacommonsOrg
@@ -1919,8 +1919,8 @@ sourceId: SourceDatacommonsOrg
 Node: maxValue
 dcid: maxValue
 label: maxValue
-typeOf: Property
-domainIncludes: Observation
+typeOf: #%Property
+domainIncludes: #%Observation
 provenance: https://schema.datacommons.org/maxValue
 url: https://schema.datacommons.org/maxValue
 sourceId: SourceDatacommonsOrg
@@ -1928,9 +1928,9 @@ sourceId: SourceDatacommonsOrg
 Node: meanValue
 dcid: meanValue
 label: meanValue
-typeOf: Property
-domainIncludes: Observation
-rangeIncludes: Number
+typeOf: #%Property
+domainIncludes: #%Observation
+rangeIncludes: #%Number
 provenance: https://schema.datacommons.org/meanValue
 url: https://schema.datacommons.org/meanValue
 sourceId: SourceDatacommonsOrg
@@ -1938,9 +1938,9 @@ sourceId: SourceDatacommonsOrg
 Node: measuredBy
 dcid: measuredBy
 label: measuredBy
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: Organization, Person
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%Organization, #%Person
 provenance: https://schema.datacommons.org/measuredBy
 url: https://schema.datacommons.org/measuredBy
 sourceId: SourceDatacommonsOrg
@@ -1948,9 +1948,9 @@ sourceId: SourceDatacommonsOrg
 Node: measuredProperty
 dcid: measuredProperty
 label: measuredProperty
-typeOf: Property
-domainIncludes: Observation
-rangeIncludes: Property, Text
+typeOf: #%Property
+domainIncludes: #%Observation
+rangeIncludes: #%Property, #%Text
 provenance: https://schema.datacommons.org/measuredProperty
 url: https://schema.datacommons.org/measuredProperty
 sourceId: SourceDatacommonsOrg
@@ -1958,9 +1958,9 @@ sourceId: SourceDatacommonsOrg
 Node: medianValue
 dcid: medianValue
 label: medianValue
-typeOf: Property
-domainIncludes: Observation
-rangeIncludes: Number
+typeOf: #%Property
+domainIncludes: #%Observation
+rangeIncludes: #%Number
 provenance: https://schema.datacommons.org/medianValue
 url: https://schema.datacommons.org/medianValue
 sourceId: SourceDatacommonsOrg
@@ -1968,8 +1968,8 @@ sourceId: SourceDatacommonsOrg
 Node: minValue
 dcid: minValue
 label: minValue
-typeOf: Property
-domainIncludes: Observation
+typeOf: #%Property
+domainIncludes: #%Observation
 provenance: https://schema.datacommons.org/minValue
 url: https://schema.datacommons.org/minValue
 sourceId: SourceDatacommonsOrg
@@ -1977,9 +1977,9 @@ sourceId: SourceDatacommonsOrg
 Node: observedNode
 dcid: observedNode
 label: observedNode
-typeOf: Property
-domainIncludes: Observation
-rangeIncludes: Measurement, StatisticalPopulation
+typeOf: #%Property
+domainIncludes: #%Observation
+rangeIncludes: #%Measurement, #%StatisticalPopulation
 provenance: https://schema.datacommons.org/observedNode
 url: https://schema.datacommons.org/observedNode
 sourceId: SourceDatacommonsOrg
@@ -1987,9 +1987,9 @@ sourceId: SourceDatacommonsOrg
 Node: occupation
 dcid: occupation
 label: occupation
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_OccupationEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_OccupationEnum
 provenance: https://schema.datacommons.org/occupation
 url: https://schema.datacommons.org/occupation
 sourceId: SourceDatacommonsOrg
@@ -1997,9 +1997,9 @@ sourceId: SourceDatacommonsOrg
 Node: partyAffiliation
 dcid: partyAffiliation
 label: partyAffiliation
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_PartyAffiliationEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_PartyAffiliationEnum
 provenance: https://schema.datacommons.org/partyAffiliation
 url: https://schema.datacommons.org/partyAffiliation
 sourceId: SourceDatacommonsOrg
@@ -2007,9 +2007,9 @@ sourceId: SourceDatacommonsOrg
 Node: populationMember
 dcid: populationMember
 label: populationMember
-typeOf: Property
-domainIncludes: StatisticalPopulation
-rangeIncludes: Thing
+typeOf: #%Property
+domainIncludes: #%StatisticalPopulation
+rangeIncludes: #%Thing
 provenance: https://schema.datacommons.org/populationMember
 url: https://schema.datacommons.org/populationMember
 sourceId: SourceDatacommonsOrg
@@ -2017,9 +2017,9 @@ sourceId: SourceDatacommonsOrg
 Node: populationType
 dcid: populationType
 label: populationType
-typeOf: Property
-domainIncludes: StatisticalPopulation
-rangeIncludes: Class
+typeOf: #%Property
+domainIncludes: #%StatisticalPopulation
+rangeIncludes: #%Class
 provenance: https://schema.datacommons.org/populationType
 url: https://schema.datacommons.org/populationType
 sourceId: SourceDatacommonsOrg
@@ -2027,9 +2027,9 @@ sourceId: SourceDatacommonsOrg
 Node: povertyStatus
 dcid: povertyStatus
 label: povertyStatus
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_PovertyStatusEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_PovertyStatusEnum
 provenance: https://schema.datacommons.org/povertyStatus
 url: https://schema.datacommons.org/povertyStatus
 sourceId: SourceDatacommonsOrg
@@ -2037,9 +2037,9 @@ sourceId: SourceDatacommonsOrg
 Node: precipitation
 dcid: precipitation
 label: precipitation
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: PrecipitationMeasurement
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%PrecipitationMeasurement
 provenance: https://schema.datacommons.org/precipitation
 url: https://schema.datacommons.org/precipitation
 sourceId: SourceDatacommonsOrg
@@ -2047,9 +2047,9 @@ sourceId: SourceDatacommonsOrg
 Node: provenance
 dcid: provenance
 label: provenance
-typeOf: Property
-domainIncludes: https://schema.org/Thing
-rangeIncludes: https://schema.org/Text
+typeOf: #%Property
+domainIncludes: #%https://schema.org/Thing
+rangeIncludes: #%https://schema.org/Text
 provenance: https://schema.datacommons.org/provenance
 url: https://schema.datacommons.org/provenance
 sourceId: SourceDatacommonsOrg
@@ -2057,9 +2057,9 @@ sourceId: SourceDatacommonsOrg
 Node: race
 dcid: race
 label: race
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_RaceCodeEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_RaceCodeEnum
 provenance: https://schema.datacommons.org/race
 url: https://schema.datacommons.org/race
 sourceId: SourceDatacommonsOrg
@@ -2067,9 +2067,9 @@ sourceId: SourceDatacommonsOrg
 Node: schoolEnrollment
 dcid: schoolEnrollment
 label: schoolEnrollment
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_SchoolEnrollmentEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_SchoolEnrollmentEnum
 provenance: https://schema.datacommons.org/schoolEnrollment
 url: https://schema.datacommons.org/schoolEnrollment
 sourceId: SourceDatacommonsOrg
@@ -2077,8 +2077,8 @@ sourceId: SourceDatacommonsOrg
 Node: startDate
 dcid: startDate
 label: startDate
-typeOf: Property
-domainIncludes: Measurement
+typeOf: #%Property
+domainIncludes: #%Measurement
 provenance: https://schema.datacommons.org/startDate
 url: https://schema.datacommons.org/startDate
 sourceId: SourceDatacommonsOrg
@@ -2086,8 +2086,8 @@ sourceId: SourceDatacommonsOrg
 Node: startTime
 dcid: startTime
 label: startTime
-typeOf: Property
-domainIncludes: Observation
+typeOf: #%Property
+domainIncludes: #%Observation
 provenance: https://schema.datacommons.org/startTime
 url: https://schema.datacommons.org/startTime
 sourceId: SourceDatacommonsOrg
@@ -2095,9 +2095,9 @@ sourceId: SourceDatacommonsOrg
 Node: subPopulation
 dcid: subPopulation
 label: subPopulation
-typeOf: Property
-domainIncludes: StatisticalPopulation
-rangeIncludes: StatisticalPopulation
+typeOf: #%Property
+domainIncludes: #%StatisticalPopulation
+rangeIncludes: #%StatisticalPopulation
 provenance: https://schema.datacommons.org/subPopulation
 url: https://schema.datacommons.org/subPopulation
 sourceId: SourceDatacommonsOrg
@@ -2105,9 +2105,9 @@ sourceId: SourceDatacommonsOrg
 Node: sumValue
 dcid: sumValue
 label: sumValue
-typeOf: Property
-domainIncludes: Observation
-rangeIncludes: Number
+typeOf: #%Property
+domainIncludes: #%Observation
+rangeIncludes: #%Number
 provenance: https://schema.datacommons.org/sumValue
 url: https://schema.datacommons.org/sumValue
 sourceId: SourceDatacommonsOrg
@@ -2115,9 +2115,9 @@ sourceId: SourceDatacommonsOrg
 Node: temperature
 dcid: temperature
 label: temperature
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: TemperatureValue
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%TemperatureValue
 provenance: https://schema.datacommons.org/temperature
 url: https://schema.datacommons.org/temperature
 sourceId: SourceDatacommonsOrg
@@ -2125,9 +2125,9 @@ sourceId: SourceDatacommonsOrg
 Node: timezone
 dcid: timezone
 label: timezone
-typeOf: Property
-domainIncludes: https://schema.org/AdministrativeArea
-rangeIncludes: https://schema.org/Text
+typeOf: #%Property
+domainIncludes: #%https://schema.org/AdministrativeArea
+rangeIncludes: #%https://schema.org/Text
 provenance: https://schema.datacommons.org/timezone
 url: https://schema.datacommons.org/timezone
 sourceId: SourceDatacommonsOrg
@@ -2135,9 +2135,9 @@ sourceId: SourceDatacommonsOrg
 Node: totalPrecipitation
 dcid: totalPrecipitation
 label: totalPrecipitation
-typeOf: Property
-domainIncludes: PrecipitationMeasurement
-rangeIncludes: DepthValue
+typeOf: #%Property
+domainIncludes: #%PrecipitationMeasurement
+rangeIncludes: #%DepthValue
 provenance: https://schema.datacommons.org/totalPrecipitation
 url: https://schema.datacommons.org/totalPrecipitation
 sourceId: SourceDatacommonsOrg
@@ -2145,9 +2145,9 @@ sourceId: SourceDatacommonsOrg
 Node: unit
 dcid: unit
 label: unit
-typeOf: Property
-domainIncludes: Observation
-rangeIncludes: Text
+typeOf: #%Property
+domainIncludes: #%Observation
+rangeIncludes: #%Text
 provenance: https://schema.datacommons.org/unit
 url: https://schema.datacommons.org/unit
 sourceId: SourceDatacommonsOrg
@@ -2155,9 +2155,9 @@ sourceId: SourceDatacommonsOrg
 Node: veteran
 dcid: veteran
 label: veteran
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_VeteranStatusEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_VeteranStatusEnum
 provenance: https://schema.datacommons.org/veteran
 url: https://schema.datacommons.org/veteran
 sourceId: SourceDatacommonsOrg
@@ -2165,9 +2165,9 @@ sourceId: SourceDatacommonsOrg
 Node: visibilityRange
 dcid: visibilityRange
 label: visibilityRange
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: DistanceValue
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%DistanceValue
 provenance: https://schema.datacommons.org/visibilityRange
 url: https://schema.datacommons.org/visibilityRange
 sourceId: SourceDatacommonsOrg
@@ -2175,9 +2175,9 @@ sourceId: SourceDatacommonsOrg
 Node: voterStatus
 dcid: voterStatus
 label: voterStatus
-typeOf: Property
-domainIncludes: Measurement
-rangeIncludes: USC_VoterStatusEnum
+typeOf: #%Property
+domainIncludes: #%Measurement
+rangeIncludes: #%USC_VoterStatusEnum
 provenance: https://schema.datacommons.org/voterStatus
 url: https://schema.datacommons.org/voterStatus
 sourceId: SourceDatacommonsOrg
@@ -2185,9 +2185,9 @@ sourceId: SourceDatacommonsOrg
 Node: weatherCondition
 dcid: weatherCondition
 label: weatherCondition
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: NOAA_WeatherConditionEnum
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%NOAA_WeatherConditionEnum
 provenance: https://schema.datacommons.org/weatherCondition
 url: https://schema.datacommons.org/weatherCondition
 sourceId: SourceDatacommonsOrg
@@ -2195,9 +2195,9 @@ sourceId: SourceDatacommonsOrg
 Node: wikidataId
 dcid: wikidataId
 label: wikidataId
-typeOf: Property
-domainIncludes: https://schema.org/Thing
-rangeIncludes: https://schema.org/Text
+typeOf: #%Property
+domainIncludes: #%https://schema.org/Thing
+rangeIncludes: #%https://schema.org/Text
 provenance: https://schema.datacommons.org/wikidataId
 url: https://schema.datacommons.org/wikidataId
 sourceId: SourceDatacommonsOrg
@@ -2205,9 +2205,9 @@ sourceId: SourceDatacommonsOrg
 Node: windDirection
 dcid: windDirection
 label: windDirection
-typeOf: Property
-domainIncludes: WindMeasurement
-rangeIncludes: Text
+typeOf: #%Property
+domainIncludes: #%WindMeasurement
+rangeIncludes: #%Text
 provenance: https://schema.datacommons.org/windDirection
 url: https://schema.datacommons.org/windDirection
 sourceId: SourceDatacommonsOrg
@@ -2215,9 +2215,9 @@ sourceId: SourceDatacommonsOrg
 Node: windMeasurement
 dcid: windMeasurement
 label: windMeasurement
-typeOf: Property
-domainIncludes: WeatherMeasurement
-rangeIncludes: WindMeasurement
+typeOf: #%Property
+domainIncludes: #%WeatherMeasurement
+rangeIncludes: #%WindMeasurement
 provenance: https://schema.datacommons.org/windMeasurement
 url: https://schema.datacommons.org/windMeasurement
 sourceId: SourceDatacommonsOrg
@@ -2225,9 +2225,9 @@ sourceId: SourceDatacommonsOrg
 Node: windSpeed
 dcid: windSpeed
 label: windSpeed
-typeOf: Property
-domainIncludes: WindMeasurement
-rangeIncludes: VelocityValue
+typeOf: #%Property
+domainIncludes: #%WindMeasurement
+rangeIncludes: #%VelocityValue
 provenance: https://schema.datacommons.org/windSpeed
 url: https://schema.datacommons.org/windSpeed
 sourceId: SourceDatacommonsOrg
