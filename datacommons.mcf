@@ -173,16 +173,6 @@ url: https://www.w3.org/2000/01/rdf-schema#comment
 provenance: https://www.w3.org/2000/01/rdf-schema#comment
 sourceId: SourceDatacommonsOrg
 
-Node: dcid
-dcid: dcid
-label: dcid
-typeOf: #%Property
-domainIncludes: #%Thing
-rangeIncludes: #%Text
-comment: "The unique identifier for the entity in dataCommons."
-url: https://schema.datacommons.org/dcid
-sourceId: SourceDatacommonsOrg
-
 Node: County
 dcid: County
 label: County
