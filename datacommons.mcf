@@ -183,16 +183,6 @@ comment: "The unique identifier for the entity in dataCommons."
 url: https://schema.datacommons.org/dcid
 sourceId: SourceDatacommonsOrg
 
-Node: provenance
-dcid: provenance
-label: provenance
-typeOf: #%Property
-domainIncludes: #%Thing
-rangeIncludes: #%Text
-comment: "The source for the data. Provenance is labeled per triple."
-url: https://schema.datacommons.org/provenance
-sourceId: SourceDatacommonsOrg
-
 Node: County
 dcid: County
 label: County
