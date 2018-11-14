@@ -17505,16 +17505,6 @@ provenance: https://schema.datacommons.org/freebaseId
 url: https://schema.datacommons.org/freebaseId
 sourceId: SourceDatacommonsOrg
 
-Node: gender
-dcid: gender
-label: gender
-typeOf: #%Property
-domainIncludes: #%Measurement
-rangeIncludes: #%USC_GenderEnum
-provenance: https://schema.datacommons.org/gender
-url: https://schema.datacommons.org/gender
-sourceId: SourceDatacommonsOrg
-
 Node: geonamesId
 dcid: geonamesId
 label: geonamesId
