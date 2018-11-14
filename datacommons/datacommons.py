@@ -415,7 +415,8 @@ class Client(object):
     Raises:
       RuntimeError: when failed to read the dataframe.
     """
-    assert self._inited, 'Initialization was unsuccessful, cannot execute Query'
+    assert self._inited, ('Initialization was unsuccessful,'
+                          ' cannot read dataframe.')
     try:
       response = self._service.read_dataframe(file_name=file_name).execute()
     except Exception as e:  # pylint: disable=broad-except
@@ -435,7 +436,30 @@ class Client(object):
     Raises:
       RuntimeError: when failed to save the dataframe.
     """
-    assert self._inited, 'Initialization was unsuccessful, cannot execute Query'
+    assert self._inited, ('Initialization was unsuccessful,'
+                          ' cannot save dataframe.')
+    data = json.dumps(pd_dataframe.to_json())
+    try:
+      self._service.save_dataframe(body={
+          'data': data,
+          'object_name': file_name
+      }).execute()
+    except Exception as e:  # pylint: disable=broad-except
+      raise RuntimeError('Failed to save dataframe: {}'.format(e))
+
+  def export_to_sheets(self, df):
+    """Saves pandas dataframe to Google Sheets.
+
+      The signed in user will have edit permission for the created sheets.
+
+    Args:
+      df: A pandas.DataFrame.
+
+    Raises:
+      RuntimeError: when failed to export the dataframe.
+    """
+    assert self._inited, ('Initialization was unsuccessful,'
+                          ' cannot export dataframe to sheets.')
     data = json.dumps(pd_dataframe.to_json())
     try:
       self._service.save_dataframe(body={
